@@ -2,48 +2,48 @@
 
 # Med-VQA Survey
 
-### Una mirada descriptiva a nueve benchmarks de *Medical Visual Question Answering*
+### A descriptive look at nine Medical Visual Question Answering benchmarks
 
-**Análisis exploratorio y visualizaciones para entender cómo se formulan y responden preguntas sobre imágenes médicas.**
+**Exploratory analysis and visualizations to understand how questions about medical images are asked and answered.**
 
-[![Notebooks para Google Colab](https://img.shields.io/badge/Abrir_notebooks-Google_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/)
+[![Notebooks for Google Colab](https://img.shields.io/badge/Open_notebooks-Google_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/)
 ![Notebooks](https://img.shields.io/badge/notebooks-9-3978A8)
-![Enfoque](https://img.shields.io/badge/enfoque-análisis_descriptivo-2A9D8F)
+![Focus](https://img.shields.io/badge/focus-descriptive_analysis-2A9D8F)
 
-<img src="assets/med-vqa-overview.svg" alt="Ilustración del análisis de preguntas y respuestas sobre imágenes médicas" width="100%">
+<img src="assets/med-vqa-overview.svg" alt="Illustration of question answering and analysis of medical images" width="100%">
 
 </div>
 
-## ¿De qué trata?
+## About
 
-Este repositorio acompaña el análisis de una encuesta sobre **Medical Visual Question Answering (Med-VQA)**. Contiene nueve notebooks de Jupyter, uno por benchmark, que reproducen análisis estadísticos descriptivos y visualizaciones de sus datos. La idea es facilitar la exploración de las características de cada conjunto —y de sus diferencias—, no entrenar ni comparar modelos.
+This repository accompanies a survey of **Medical Visual Question Answering (Med-VQA)**. It contains nine Jupyter notebooks, one for each benchmark, reproducing descriptive statistical analyses and visualizations of their data. The goal is to make it easier to explore the characteristics of each dataset—and how they differ—not to train or compare models.
 
-Según los campos disponibles en cada dataset, los notebooks exploran aspectos como el número de imágenes, preguntas y respuestas; la frecuencia de tipos de pregunta y respuesta; las preguntas y respuestas más comunes; la longitud del texto; y distribuciones o relaciones entre variables como modalidad, anatomía, órgano o dificultad. El alcance y las variables **no son idénticos en todos los notebooks**.
+Depending on the fields available in each dataset, the notebooks explore aspects such as the number of images, questions, and answers; the frequency of question and answer types; common questions and answers; text length; and distributions or relationships between variables such as modality, anatomy, organ, or difficulty. The scope and variables **are not identical across all notebooks**.
 
 ## Notebooks
 
-| Benchmark | Notebook | Enfoque destacado |
+| Benchmark | Notebook | Highlights |
 | --- | --- | --- |
-| DME-VQA | [DME_VQA.ipynb](DME_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/DME_VQA.ipynb) | Tipos de pregunta, preguntas y respuestas frecuentes; cruces por tipo y centro. |
-| Kvasir-VQA | [Kvasir_VQA.ipynb](Kvasir_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/Kvasir_VQA.ipynb) | Complejidad, preguntas y respuestas frecuentes, y longitud del texto. |
-| MedFrameVQA | [MedFrameVQA.ipynb](MedFrameVQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/MedFrameVQA.ipynb) | Distribuciones de modalidad, órgano y sistema, además de longitudes de preguntas y respuestas. |
-| PMC-VQA | [PMC_VQA.ipynb](PMC_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/PMC_VQA.ipynb) | Contenido radiológico, opciones de respuesta y estadísticas de texto y pies de imagen. |
-| PathVQA | [PathVQA.ipynb](PathVQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/PathVQA.ipynb) | Tipos de pregunta y respuesta, frecuencias y distribución de longitudes. |
-| SLAKE | [SLAKE.ipynb](SLAKE.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/SLAKE.ipynb) | Tipos de respuesta, preguntas frecuentes y cruces entre variables. |
-| VQA-MED 2019 | [VQA_MED_2019.ipynb](VQA_MED_2019.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/VQA_MED_2019.ipynb) | Análisis descriptivo de preguntas, respuestas e imágenes. |
-| VQA-RAD | [VQA_RAD.ipynb](VQA_RAD.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/VQA_RAD.ipynb) | Preguntas y respuestas por tipo, cruces con órgano y resumen visual. |
-| ViDr-CXR-VQA | [ViDr_CXR_VQA.ipynb](ViDr_CXR_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/ViDr_CXR_VQA.ipynb) | Análisis a nivel de imagen y de pares pregunta-respuesta, con dificultad y justificaciones. |
+| DME-VQA | [DME_VQA.ipynb](DME_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/DME_VQA.ipynb) | Question types and frequent questions and answers; breakdowns by type and center. |
+| Kvasir-VQA | [Kvasir_VQA.ipynb](Kvasir_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/Kvasir_VQA.ipynb) | Complexity, frequent questions and answers, and text length. |
+| MedFrameVQA | [MedFrameVQA.ipynb](MedFrameVQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/MedFrameVQA.ipynb) | Distributions by modality, organ, and system, as well as question and answer lengths. |
+| PMC-VQA | [PMC_VQA.ipynb](PMC_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/PMC_VQA.ipynb) | Radiological content, answer options, and text and caption statistics. |
+| PathVQA | [PathVQA.ipynb](PathVQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/PathVQA.ipynb) | Question and answer types, frequencies, and length distributions. |
+| SLAKE | [SLAKE.ipynb](SLAKE.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/SLAKE.ipynb) | Answer types, frequent questions, and cross-variable analyses. |
+| VQA-MED 2019 | [VQA_MED_2019.ipynb](VQA_MED_2019.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/VQA_MED_2019.ipynb) | Descriptive analysis of questions, answers, and images. |
+| VQA-RAD | [VQA_RAD.ipynb](VQA_RAD.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/VQA_RAD.ipynb) | Questions and answers by type, organ breakdowns, and a visual summary. |
+| ViDr-CXR-VQA | [ViDr_CXR_VQA.ipynb](ViDr_CXR_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/ViDr_CXR_VQA.ipynb) | Image-level and question-answer pair analyses, including difficulty and justifications. |
 
-## Cómo empezar
+## Getting started
 
-1. Abre el notebook del benchmark que quieras explorar (los enlaces de la tabla llevan a GitHub o a Google Colab).
-2. Revisa las primeras celdas: cada notebook documenta sus dependencias y su propia forma de cargar los datos.
-3. Proporciona los archivos de datos que ese notebook espera —por ejemplo, mediante la carga en Colab o la ruta indicada— y ejecuta las celdas en orden.
-4. Inspecciona las tablas, estadísticas y gráficos generados; adapta las rutas o la configuración de carga si tu entorno lo requiere.
+1. Open the notebook for the benchmark you want to explore (the table links to GitHub and Google Colab).
+2. Check the first cells: each notebook documents its dependencies and its own data-loading approach.
+3. Provide the data files expected by that notebook—using Colab's upload feature or the specified path, for example—and run the cells in order.
+4. Explore the resulting tables, statistics, and charts; adjust paths or loading settings as needed for your environment.
 
-> **Datos:** los notebooks están versionados aquí, pero los datasets no. El acceso, formato y nombre de los archivos pueden variar entre benchmarks; consulta las instrucciones del notebook correspondiente y obtén los datos desde su fuente autorizada.
+> **Data:** The notebooks are versioned here, but the datasets are not. Data access, format, and filenames may differ between benchmarks; consult the relevant notebook and obtain the data from its authorized source.
 
-## Estructura
+## Repository structure
 
 ```text
 .
@@ -61,10 +61,10 @@ Según los campos disponibles en cada dataset, los notebooks exploran aspectos c
 └── README.md
 ```
 
-## Alcance y uso responsable
+## Scope and responsible use
 
-Estos notebooks sirven para **exploración y análisis de datos de investigación**; no son una herramienta de diagnóstico ni de apoyo a decisiones clínicas. Antes de descargar o utilizar un dataset, revisa sus condiciones de acceso, licencia y requisitos éticos. Los resultados pueden depender de la versión, el preprocesamiento y los archivos suministrados a cada notebook.
+These notebooks are intended for **research data exploration and analysis**; they are not diagnostic or clinical decision-support tools. Before downloading or using a dataset, review its access terms, license, and ethical requirements. Results may depend on the version, preprocessing, and files provided to each notebook.
 
-## Cita y referencia
+## Citation
 
-Este código reproduce análisis y visualizaciones relacionados con una encuesta de Med-VQA. Cuando se publique la referencia bibliográfica del artículo, añádela aquí junto con el formato de cita recomendado.
+This code reproduces analyses and visualizations related to a Med-VQA survey. Once the paper's bibliographic reference is available, add it here along with the recommended citation format.
