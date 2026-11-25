@@ -24,15 +24,15 @@ Depending on the fields available in each dataset, the notebooks explore aspects
 
 | Benchmark | Notebook | Highlights |
 | --- | --- | --- |
-| DME-VQA | [DME_VQA.ipynb](DME_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/DME_VQA.ipynb) | Question types and frequent questions and answers; breakdowns by type and center. |
-| Kvasir-VQA | [Kvasir_VQA.ipynb](Kvasir_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/Kvasir_VQA.ipynb) | Complexity, frequent questions and answers, and text length. |
-| MedFrameVQA | [MedFrameVQA.ipynb](MedFrameVQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/MedFrameVQA.ipynb) | Distributions by modality, organ, and system, as well as question and answer lengths. |
-| PMC-VQA | [PMC_VQA.ipynb](PMC_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/PMC_VQA.ipynb) | Radiological content, answer options, and text and caption statistics. |
-| PathVQA | [PathVQA.ipynb](PathVQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/PathVQA.ipynb) | Question and answer types, frequencies, and length distributions. |
-| SLAKE | [SLAKE.ipynb](SLAKE.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/SLAKE.ipynb) | Answer types, frequent questions, and cross-variable analyses. |
-| VQA-MED 2019 | [VQA_MED_2019.ipynb](VQA_MED_2019.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/VQA_MED_2019.ipynb) | Descriptive analysis of questions, answers, and images. |
-| VQA-RAD | [VQA_RAD.ipynb](VQA_RAD.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/VQA_RAD.ipynb) | Questions and answers by type, organ breakdowns, and a visual summary. |
-| ViDr-CXR-VQA | [ViDr_CXR_VQA.ipynb](ViDr_CXR_VQA.ipynb) · [Colab](https://colab.research.google.com/github/AlbertP97/Med-VQA-Survey/blob/main/ViDr_CXR_VQA.ipynb) | Image-level and question-answer pair analyses, including difficulty and justifications. |
+| DME-VQA | [DME_VQA.ipynb](DME_VQA.ipynb) | Question types and frequent questions and answers; breakdowns by type and center. |
+| Kvasir-VQA | [Kvasir_VQA.ipynb](Kvasir_VQA.ipynb) | Complexity, frequent questions and answers, and text length. |
+| MedFrameVQA | [MedFrameVQA.ipynb](MedFrameVQA.ipynb) | Distributions by modality, organ, and system, as well as question and answer lengths. |
+| PMC-VQA | [PMC_VQA.ipynb](PMC_VQA.ipynb) | Radiological content, answer options, and text and caption statistics. |
+| PathVQA | [PathVQA.ipynb](PathVQA.ipynb) | Question and answer types, frequencies, and length distributions. |
+| SLAKE | [SLAKE.ipynb](SLAKE.ipynb) | Answer types, frequent questions, and cross-variable analyses. |
+| VQA-MED 2019 | [VQA_MED_2019.ipynb](VQA_MED_2019.ipynb) | Descriptive analysis of questions, answers, and images. |
+| VQA-RAD | [VQA_RAD.ipynb](VQA_RAD.ipynb) | Questions and answers by type, organ breakdowns, and a visual summary. |
+| ViDr-CXR-VQA | [ViDr_CXR_VQA.ipynb](ViDr_CXR_VQA.ipynb) | Image-level and question-answer pair analyses, including difficulty and justifications. |
 
 ## Getting started
 
@@ -67,4 +67,4 @@ These notebooks are intended for **research data exploration and analysis**; the
 
 ## Citation
 
-This code reproduces analyses and visualizations related to a Med-VQA survey. Once the paper's bibliographic reference is available, add it here along with the recommended citation format.
+This code reproduces analyses and visualizations related to a Med-VQA survey.
